@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cash Register Manager</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container-center">
+      <h1>Cash Register Manager</h1>
+      <p>
+        Enter the bill amount and cash given by the customer and know minimum
+        number of notes to return.
+      </p>
+      <div>
+        <label for="bill-amount">Bill Amount:</label>
+        <input type="number" id="bill-amount" />
+      </div>
+      <div id="cg-block">
+        <label for="cash-given">Cash Given:</label>
+        <input type="number" id="cash-given" />
+      </div>
+      <button id="validateBillAmt">Check</button>
+      <p id="error-message"></p>
+      <h2 class="return-block">Return Change:</h2>
+      <table class="return-block">
+        <tr>
+          <th>No. of Notes</th>
+          <td class="notes-to-return"></td>
+          <td class="notes-to-return"></td>
+          <td class="notes-to-return"></td>
+          <td class="notes-to-return"></td>
+          <td class="notes-to-return"></td>
+          <td class="notes-to-return"></td>
+          <td class="notes-to-return"></td>
+          <td class="notes-to-return"></td>
+          <td class="notes-to-return"></td>
+        </tr>
+        <tr>
+          <th>Notes</th>
+          <td>2000</td>
+          <td>500</td>
+          <td>200</td>
+          <td>100</td>
+          <td>50</td>
+          <td>20</td>
+          <td>10</td>
+          <td>5</td>
+          <td>1</td>
+        </tr>
+      </table>
+      <footer class="footer">
+        <div>
+          <h3>Connect with me on</h3>
+          <ul class="footer-ul">
+            <li class="footer-li">
+              <a
+                href="https://github.com/prajvalhl"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="https://img.icons8.com/material-outlined/48/000000/github.png"
+                  alt="github logo"
+                />
+              </a>
+            </li>
+            <li class="footer-li">
+              <a
+                href="https://www.linkedin.com/in/hlprajval/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="https://img.icons8.com/color/48/000000/linkedin.png"
+                  alt="linkedin logo"
+                />
+              </a>
+            </li>
+            <li class="footer-li">
+              <a
+                href="https://twitter.com/l_prajval"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="https://img.icons8.com/color/48/000000/twitter--v1.png"
+                  alt="twitter logo"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
